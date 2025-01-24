@@ -1,7 +1,5 @@
 
 
-package oddeventhreads;
-
 /**
  *
  * 
@@ -12,12 +10,7 @@ class OddNumberThread extends Thread {
         try {
         
             for (int i = 1; i <= 20; i += 2) {
-                System.out.println("Odd Thread: " + i);
-                Thread.sleep(700); 
-            }
-        } catch (InterruptedException e) {
-            System.err.println("Odd Thread interrupted: " + e.getMessage());
-        }
+
     }
 }
 
